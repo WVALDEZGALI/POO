@@ -1,8 +1,12 @@
+import static ui.UIMenu.*;
 public class Main {
     public static void main(String[] args) {
 
-        Doctor myDoctor = new Doctor ("Diego Valdes");
-        myDoctor.name = "Camilo Valdes";
-        myDoctor.showName ();
+        //showMenu();
+
+        Doctor myDoctor = new Doctor ("Camilo valdes", "Cardiology");
+        System.out.println ("The assigned doctor's name is: " + myDoctor.name);
+        System.out.println ("The specialty is: " + myDoctor.speciality);
     }
+
 }
