@@ -4,9 +4,13 @@ public class Main {
 
         //showMenu();
 
-        Doctor myDoctor = new Doctor ("Camilo valdes", "Cardiology");
-        System.out.println ("The assigned doctor's name is: " + myDoctor.name);
-        System.out.println ("The specialty is: " + myDoctor.speciality);
-    }
+        Doctor myDoctor = new Doctor ("Camilo Valdes", "Cardiology");
 
+        Patient myPatient = new Patient ("Angie Venegas","gikavenegas@gmail.com");
+        myPatient.setWeight(60.3);
+        System.out.println (myPatient.getWeight ());
+
+        myPatient.setPhoneNumber ("12345678");
+        System.out.println (myPatient.getPhoneNumber ());
+    }
 }

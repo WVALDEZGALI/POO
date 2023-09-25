@@ -1,7 +1,8 @@
 public class Doctor {
-    static int id = 0;
-    String name;
-    String speciality;
+    private static int id = 0;
+    private String name;
+    private String speciality;
+    private String email;
 
 
     public Doctor( String name, String speciality){
